@@ -1,0 +1,205 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi", "Hello", "Hey there", "Greetings", "Good day"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! What can I do for you?",
+                "Hey! How can I help you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye", "Goodbye", "See you later", "I have to go"
+            ],
+            "responses": [
+                "Goodbye! Take care.",
+                "Bye! Don't hesitate to reach out if you need anything.",
+                "See you later! I'm here whenever you need."
+            ]
+        },
+        {
+            "tag": "empathy_understanding",
+            "patterns": [
+                "I'm feeling sad", "I'm not doing well", "I'm struggling", "I'm feeling low"
+            ],
+            "responses": [
+                "I'm really sorry that you're feeling this way, but I'm unable to provide the help that you need. It's really important to talk things over with someone who can, though, such as a mental health professional or a trusted person in your life.",
+                "I'm here for you. Don't hesitate to share what you're going through. Remember, it's okay to ask for help.",
+                "I can't imagine how hard it is for you, but remember, you don't have to go through this alone. There are people who want to help."
+            ]
+        },
+        {
+            "tag": "crisis_intervention",
+            "patterns": [
+                "I want to hurt myself", "I don't want to live anymore", "I'm thinking of ending my life"
+            ],
+            "responses": [
+                "I'm really sorry that you're feeling this way. It must be really hard, but you don't have to go through this alone. There are professionals who can provide you with the help to overcome this. Please reach out to them or a trusted person in your life immediately.",
+                "I can't imagine how difficult things must be for you right now, but please know that you don't have to face this alone. There are professionals who are ready and willing to help. Reaching out to them can be a vital step towards feeling better.",
+                "I'm really sorry that you're feeling this way, but remember, there are people who want to help. Please let them know you're struggling so they can provide the support you need. There are professional resources available that can make a big difference.",
+                "It sounds like you're going through a really difficult time right now. But you don't have to manage this on your own. There are people who are trained to help and want to provide the support that you need. Please reach out to them."
+            ]
+        },
+        {
+            "tag": "daily_checkin",
+            "patterns": [
+                "How are you?", "What's up?", "What are you doing?"
+            ],
+            "responses": [
+                "Hello! I'm here to assist you. How are you feeling today?",
+                "Hi! I'm ready to support you. Can you tell me how your day is going?"
+            ]
+        },
+        {
+            "tag": "mindfulness_relaxation",
+            "patterns": [
+                "I'm feeling stressed", "I can't relax", "I need to calm down"
+            ],
+            "responses": [
+                "Let's try some deep breathing. Inhale... hold... Exhale...",
+                "Try to focus on your senses. What do you see? What do you hear? What do you feel?"
+            ]
+        },
+        {
+            "tag": "resources_recommendations",
+            "patterns": [
+                "Can you suggest something to read?", "I need help", "What should I do?"
+            ],
+            "responses": [
+                "I recommend reading 'Feeling Good: The New Mood Therapy' by David D. Burns.",
+                "Have you considered speaking with a mental health professional? They can provide you with the appropriate resources and guidance."
+            ]
+        },
+        {
+            "tag": "reminders",
+            "patterns": [
+                "Remind me to take my medication", "Tell me to go for a walk", "Don't let me forget to eat"
+            ],
+            "responses": [
+                "Sure, I'll remind you. But remember, I'm a bot and can't replace a personal reminder system.",
+                "Okay, I'll try to remind you. However, it's important to have a reliable system in place for important tasks."
+            ]
+        },
+        {
+            "tag": "affirmation",
+            "patterns": [
+                "I need encouragement", "I'm feeling down", "I need a boost", "I don't feel good about myself"
+            ],
+            "responses": [
+                "Remember, it's okay to have bad days. You're human and you're doing the best you can. Be kind to yourself.",
+                "You are a valuable and unique individual. Don't be too hard on yourself.",
+                "Don't forget that it's okay to ask for help. You don't have to go through this alone. You matter and there are people who care about you."
+            ]
+        },
+        {
+            "tag": "purposelessness",
+            "patterns": [
+                "I feel like I have no purpose", "I'm feeling purposeless", "I don't know what I'm doing with my life", "What's the point of it all?"
+            ],
+            "responses": [
+                "It's perfectly okay to feel unsure about your purpose in life. Remember, everyone moves at their own pace, and it's never too late to discover what makes you feel fulfilled and happy.",
+                "Feeling purposeless can be incredibly tough, but it's important to know that these feelings don't define your worth or potential. Everyone has unique talents and strengths that make them valuable to the world.",
+                "Life is full of ups and downs, and it's normal to feel lost sometimes. Remember, it's the journey that matters. Each experience, whether good or bad, contributes to who you are. You're doing just fine."
+            ]
+        },
+        {
+            "tag": "aggression",
+            "patterns": [
+                "I want to hurt someone", "I'm going to do something bad", "I'm so angry I could hurt someone", "I might kill someone"
+            ],
+            "responses": [
+                "I can see that you're really upset right now. Sometimes it can help to take a few deep breaths and try to calm down. It's important to talk to someone who can help, like a mental health professional, about what you're feeling.",
+                "It sounds like you're really struggling with these feelings. Can you find a safe place to cool down for a moment? It would be really beneficial to reach out to a mental health professional or trusted person in your life about these feelings."
+            ]
+        },
+        {
+            "tag": "loneliness",
+            "patterns": [
+                "I feel so alone", "I have no one to talk to", "No one understands me", "I have no friends", "I'm all alone in this"
+            ],
+            "responses": [
+                "I'm really sorry that you're feeling this way, but please know that you're not alone. There are services available that can help you connect with others and feel supported, such as online communities, support groups, or professional counselors.",
+                "It sounds like you're feeling very alone right now. That can be incredibly hard. Remember, it's okay to reach out to others. You'd be surprised how much people care. If you're up for it, maybe you could join a local club, group, or online community.",
+                "I'm here for you. You're not alone in this. It's really hard when you feel like no one understands, but there are people who want to listen and help. Don't hesitate to reach out to hotlines or support groups—they're there for people in your situation."
+            ]
+        },
+        {
+            "tag": "desire_for_happiness",
+            "patterns": [
+                "I want to be happier", "I wish I could feel joy", "I want to feel better about myself", "I'm tired of being sad all the time"
+            ],
+            "responses": [
+                "It's perfectly okay to want to feel happier. What are some things that usually bring you joy or at least used to do so? Sometimes revisiting those activities can help. It's also okay to seek help to navigate your feelings.",
+                "I understand you want to feel happier. It might help to start by acknowledging your feelings without judgement. Consider things that make you happy, even small things, and try to incorporate them into your day.",
+                "Desiring to be happier is a very human wish. It's important to remember that everyone has good days and bad days, and it's okay to have feelings that aren't happy ones. If you're feeling down for a prolonged period, it could be helpful to speak with a mental health professional."
+            ]
+        },
+        {
+            "tag": "affirmation_for_depression",
+            "patterns": [
+                "I need positive affirmations", "I need help with depression", "I need to feel better about myself", "Can you give me some affirmations for my depression?"
+            ],
+            "responses": [
+                "You are safe right now. It's not your fault that you're experiencing depression. There are reasons for your feelings, but remember, you're strong and resilient.",
+                "You've made it through other challenges, and you will make it through this one too. Your depression doesn't define you.",
+                "You have agency in your life, and depression doesn't have to control you. You're valuable even when you're not productive.",
+                "You're enough and you don't have to prove anything to anyone else. It's OK to feel sad because tomorrow is a fresh start.",
+                "You're not alone with your depression. Many people also experience it. You're navigating this as best you can.",
+                "You should be proud of how you got through this day. You're overcoming depression one step at a time.",
+                "People love you, and you're worthy of their love. The negative things your mind says about you aren't helpful.",
+                "Remember to be grateful for the people and things you hold dear, like your family, friends, or animal companions."
+            ]
+        },
+        {
+            "tag": "family_issues",
+            "patterns": [
+                "I'm having trouble with my family", "My family doesn't understand me", "I'm feeling unappreciated at home", "I'm having a family issue"
+            ],
+            "responses": [
+                "I'm really sorry to hear that you're going through this. Family issues can be really hard. Remember, it's important to communicate your feelings openly and honestly with your family members, if it's safe to do so.",
+                "It sounds like you're experiencing some tough times with your family. It's okay to take some time for yourself to process your feelings. If things get too overwhelming, seeking help from a professional counselor can be very beneficial.",
+                "I'm here to listen to you. It's important to remember that everyone has ups and downs with their family. Try to express your feelings and concerns to your family, and consider seeking family counseling for further support."
+            ]
+        },
+        {
+            "tag": "relationship_issues",
+            "patterns": [
+                "I'm having trouble in my relationship", "My partner doesn't understand me", "I'm feeling unappreciated by my partner", "I'm having a relationship issue"
+            ],
+            "responses": [
+                "I'm really sorry to hear that you're experiencing this. Relationship issues can be really tough. Remember, open and honest communication with your partner is key. It's important to express your feelings and needs.",
+                "It sounds like you're experiencing some difficult times in your relationship. It's okay to take some time for yourself to process your feelings. If things get too overwhelming, seeking help from a professional counselor or therapist can be very beneficial.",
+                "I'm here to listen to you. It's important to remember that every relationship has its ups and downs. Try to express your feelings and concerns to your partner, and consider seeking couples counseling for further support."
+            ]
+        },
+        {
+            "tag": "expressing_positive_emotions",
+            "patterns": [
+                "I'm really happy today", "I'm feeling excited", "I'm feeling content", "I'm feeling loved", "I feel great"
+            ],
+            "responses": [
+                "That's wonderful to hear! Keep enjoying these positive feelings.",
+                "I'm really glad you're feeling this way! Positive emotions are such a joy in life.",
+                "That's great! Remember, it's okay to enjoy these moments and take pleasure in your positive feelings."
+            ]
+        },
+        {
+            "tag": "expressing_negative_emotions",
+            "patterns": [
+                "I'm feeling sad", "I'm feeling anxious", "I'm angry", "I'm feeling frustrated", "I'm feeling scared", "I'm feeling down"
+            ],
+            "responses": [
+                "I'm really sorry to hear that you're feeling this way. It's okay to feel the way you do. Remember, every emotion is valid.",
+                "I'm here to listen to you. Negative emotions can be tough, but they are a natural part of life. It's important to acknowledge them and express them safely.",
+                "It's really brave of you to express what you're feeling. I'm here to support you through this."
+            ]
+        }
+        
+            
+    ]
+}
